@@ -37,7 +37,7 @@ body {
 
 .card_cart {
     right: 20px;
-    left: unset; /* Sử dụng 'unset' để bỏ qua thuộc tính 'left' */
+    left: unset; 
 }
 
 .card_img {
@@ -68,7 +68,7 @@ body {
     margin-bottom: 10px;
 }
 
-.card_size span, .card_color span {
+.card_color span {
     padding: 1px 10px;
     background: rgb(220, 211, 211);
     color: black;
@@ -82,10 +82,11 @@ body {
     height: 15px;
     border-radius: 50%;
     margin: 5px;
+    cursor: pointer;
 }
 
-.card_color_green {
-    background: #99d98c;
+.card_color_pink {
+    background: pink;
 }
 
 .card_color_red {
